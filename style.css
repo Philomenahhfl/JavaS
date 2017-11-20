@@ -1,0 +1,48 @@
+body{
+	background-color: #ccc;
+}
+.gallery{
+	background-color: #fff;
+	max-width: 700px;
+	margin:0 auto;
+	padding: 5px;
+
+}
+.thumbnails{
+	font-size: 0px;
+}
+.thumbnails img {
+	width:25%; 
+	padding: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+
+}
+p{
+	color: blue;
+	border: thin silver solid;
+	
+}
+.thumbnails img:hover{
+	opacity: 0.7;
+}
+.viewer{
+	padding: 5px;
+	padding-bottom: 0px;
+	position: relative;
+}
+.viewer img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.viewer p{
+	position: absolute;
+	background-color: rgba(255,255,255,0.5);
+	display: block;
+	padding: 15px;
+	margin:15px;
+	top:0;
+	left: 0;
+	opacity: 0.5;
+}
